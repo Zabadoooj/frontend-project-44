@@ -4,9 +4,10 @@
   "description": "[![Actions Status](https://github.com/Zabadoooj/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Zabadoooj/frontend-project-44/actions)",
   "main": "brain-games.js",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "type": "module",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
