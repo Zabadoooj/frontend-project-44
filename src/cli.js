@@ -1,12 +1,9 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 
-const getName = () => {
-    const name = readlineSync.question('Your answer: ', {
-        hideEchoBack: true
-    });
+const getUserName = () => {
+    const name = readlineSync.question('May I have your name? ');
 
     return name;
-}
-
-export default getName;
+};
+export default getUserName;
