@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-import getUserName from '../src/cli.js';
 import readlineSync from 'readline-sync';
 
+console.log("brain-even \n")
 
 console.log("Welcome to the Brain Games!");
 
-const username = getUserName();
+const username = readlineSync.question('May I have your name? ');
 let gameCountes = 3;
 
 const game = () => {
@@ -44,7 +44,7 @@ const game = () => {
 };
 
 const chetnoyeGame = () => {
-    
+
     if (gameCountes > 0) {
         game();
     }else{
