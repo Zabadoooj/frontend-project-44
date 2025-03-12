@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Zabadoooj/frontend-project-44#readme",
   "dependencies": {
+    "make": "^0.8.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
